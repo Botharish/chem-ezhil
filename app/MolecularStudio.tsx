@@ -45,7 +45,14 @@ const examples: Example[] = [
   ['Urea', 'NC(=O)N'],
 ];
 
-const chemistryApiUrl = (process.env.NEXT_PUBLIC_CHEMSPHERE_API || 'http://localhost:8000').replace(/\/$/, '');
+const configuredChemistryApiUrl = process.env.NEXT_PUBLIC_CHEMSPHERE_API?.trim();
+const configuredLocalApi = Boolean(configuredChemistryApiUrl && /localhost|127\.0\.0\.1|\[::1\]/i.test(configuredChemistryApiUrl));
+const chemistryApiUrl = (
+  process.env.NODE_ENV === 'production' && configuredLocalApi
+    ? ''
+    : configuredChemistryApiUrl || (process.env.NODE_ENV === 'production' ? '' : 'http://localhost:8000')
+).replace(/\/$/, '');
+const chemistryApiLabel = chemistryApiUrl || 'the deployed chemistry API';
 
 const ethanolFallback: StructureData = {
   formula: 'C2H6O',
@@ -243,7 +250,7 @@ export default function MolecularStudio() {
       } catch {
         throw new Error(
           response.status === 404
-            ? `The chemistry API is not running at ${chemistryApiUrl}. Start the Python backend, then try again.`
+            ? `The chemistry API is not available at ${chemistryApiLabel}. Check the deployed API, then try again.`
             : `The chemistry API returned an unexpected response (${response.status}).`,
         );
       }
@@ -257,7 +264,7 @@ export default function MolecularStudio() {
       } else {
         setData(null);
         setError(caught instanceof TypeError
-          ? `Could not connect to the chemistry API at ${chemistryApiUrl}. Start the Python backend, then try again.`
+          ? `Could not connect to ${chemistryApiLabel}. Check the deployed API, then try again.`
           : caught instanceof Error ? caught.message : 'Unable to draw structure');
       }
     } finally {

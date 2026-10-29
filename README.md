@@ -26,9 +26,12 @@ python3 -m uvicorn api.main:app --reload --port 8000
 ```
 
 Keep the Python API running in one terminal and the Next.js app running in a
-second terminal. Molecular Studio sends structure requests to
-`http://localhost:8000` by default. You can override that with
-`NEXT_PUBLIC_CHEMSPHERE_API` when the API is hosted elsewhere.
+second terminal for local development. Local development sends structure
+requests to `http://localhost:8000`. In production, Molecular Studio uses the
+same-origin `/api` route, which is rewritten to the FastAPI service by
+`vercel.json`, so the deployed site does not access a user's computer. If the
+API is hosted at a separate public URL, set `NEXT_PUBLIC_CHEMSPHERE_API` to
+that HTTPS URL in the deployment environment.
 
 The service endpoints are `/api/structure`, `/api/balance`, `/api/units`, and
 `/api/kinetics/first-order`. RDKit is used only for validated molecular inputs;
