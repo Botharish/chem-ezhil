@@ -9,14 +9,17 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/node_modules/next/dist/build/polyfills/process.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$script$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/script.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-right.mjs [app-client] (ecmascript) <export default as ArrowRight>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/circle-check.mjs [app-client] (ecmascript) <export default as CheckCircle2>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$info$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Info$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/info.mjs [app-client] (ecmascript) <export default as Info>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/loader-circle.mjs [app-client] (ecmascript) <export default as Loader2>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$maximize$2d$2$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Maximize2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/maximize-2.mjs [app-client] (ecmascript) <export default as Maximize2>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$minus$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Minus$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/minus.mjs [app-client] (ecmascript) <export default as Minus>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plus$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Plus$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/plus.mjs [app-client] (ecmascript) <export default as Plus>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$rotate$2d$ccw$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__RotateCcw$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/rotate-ccw.mjs [app-client] (ecmascript) <export default as RotateCcw>");
 ;
-var _s = __turbopack_context__.k.signature();
+var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.signature();
 'use client';
-;
 ;
 ;
 const examples = [
@@ -101,112 +104,289 @@ const examples = [
         'NC(=O)N'
     ]
 ];
-function MolecularStudio() {
-    _s();
-    const [smiles, setSmiles] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('CCO');
-    const [choice, setChoice] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('Ethanol');
-    const [data, setData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
-    const [busy, setBusy] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    const [error, setError] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
-    const canvas = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
-    const draw = async ()=>{
-        setBusy(true);
-        setError('');
-        try {
-            const r = await fetch(`${__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_CHEMSPHERE_API ?? ''}/api/structure`, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({
-                    smiles
-                })
-            });
-            const j = await r.json();
-            if (!r.ok) throw new Error(j.detail || 'Invalid SMILES');
-            setData(j);
-        } catch (e) {
-            const fallback = {
-                'CCO': {
-                    formula: 'C2H6O',
-                    canonical_smiles: 'CCO',
-                    molar_mass: 46.069,
-                    atoms: [
-                        {
-                            element: 'C',
-                            x: -1.2,
-                            y: 0,
-                            z: 0
-                        },
-                        {
-                            element: 'C',
-                            x: 0,
-                            y: 0,
-                            z: 0
-                        },
-                        {
-                            element: 'O',
-                            x: 1.2,
-                            y: 0,
-                            z: 0
-                        }
-                    ],
-                    molfile: `Ethanol fallback
+const chemistryApiUrl = (__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"].env.NEXT_PUBLIC_CHEMSPHERE_API || 'http://localhost:8000').replace(/\/$/, '');
+const ethanolFallback = {
+    formula: 'C2H6O',
+    canonical_smiles: 'CCO',
+    molar_mass: 46.069,
+    atoms: [
+        {
+            element: 'C',
+            x: -1.2,
+            y: 0,
+            z: 0
+        },
+        {
+            element: 'C',
+            x: 0,
+            y: 0,
+            z: 0
+        },
+        {
+            element: 'O',
+            x: 1.2,
+            y: 0,
+            z: 0
+        }
+    ],
+    molfile: `Ethanol fallback
   ChemSphere
 
-  3  2  0  0  0  0  0  0  0  0  0999 V2000
+  3  2  0  0  0  0  0  0  0  0  0  0999 V2000
    -1.2000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
     0.0000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
     1.2000    0.0000    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
   1  2  1  0  0  0  0
   2  3  1  0  0  0  0
 M  END`
+};
+const atomColors = {
+    H: '#f8fafc',
+    C: '#64748b',
+    N: '#3b82f6',
+    O: '#ef4444',
+    F: '#22c55e',
+    P: '#f59e0b',
+    S: '#eab308',
+    Cl: '#22c55e',
+    Br: '#b45309',
+    I: '#8b5cf6',
+    Na: '#a855f7',
+    Ca: '#f97316'
+};
+function parseBonds(molfile) {
+    const lines = molfile.split(/\r?\n/);
+    const countsLine = lines[3] || '';
+    const atomCount = Number.parseInt(countsLine.slice(0, 3).trim(), 10) || 0;
+    const bondCount = Number.parseInt(countsLine.slice(3, 6).trim(), 10) || 0;
+    return lines.slice(4 + atomCount, 4 + atomCount + bondCount).map((line)=>({
+            from: Number.parseInt(line.slice(0, 3).trim(), 10) - 1,
+            to: Number.parseInt(line.slice(3, 6).trim(), 10) - 1,
+            order: Number.parseInt(line.slice(6, 9).trim(), 10) || 1
+        })).filter((bond)=>bond.from >= 0 && bond.to >= 0);
+}
+function InteractiveMolecule({ data, zoomLevel, rotation, onZoomChange, onRotationChange }) {
+    _s();
+    const canvasRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
+    const drag = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])({
+        active: false,
+        x: 0,
+        y: 0
+    });
+    const bonds = parseBonds(data.molfile);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "InteractiveMolecule.useEffect": ()=>{
+            const canvas = canvasRef.current;
+            if (!canvas) return;
+            const context = canvas.getContext('2d');
+            if (!context) return;
+            const width = canvas.clientWidth;
+            const height = canvas.clientHeight;
+            const pixelRatio = window.devicePixelRatio || 1;
+            canvas.width = width * pixelRatio;
+            canvas.height = height * pixelRatio;
+            context.scale(pixelRatio, pixelRatio);
+            context.clearRect(0, 0, width, height);
+            const points = data.atoms.map({
+                "InteractiveMolecule.useEffect.points": (atom)=>{
+                    const cosY = Math.cos(rotation.y);
+                    const sinY = Math.sin(rotation.y);
+                    const cosX = Math.cos(rotation.x);
+                    const sinX = Math.sin(rotation.x);
+                    const x1 = atom.x * cosY - atom.z * sinY;
+                    const z1 = atom.x * sinY + atom.z * cosY;
+                    const y1 = atom.y * cosX - z1 * sinX;
+                    const z2 = atom.y * sinX + z1 * cosX;
+                    const perspective = 1 / Math.max(0.55, 1 - z2 * 0.09);
+                    const scale = Math.min(width, height) / 3.25 * zoomLevel * perspective;
+                    return {
+                        x: width / 2 + x1 * scale,
+                        y: height / 2 - y1 * scale,
+                        z: z2,
+                        perspective
+                    };
                 }
-            }[smiles];
-            if (fallback) {
-                setData(fallback);
+            }["InteractiveMolecule.useEffect.points"]);
+            const drawBond = {
+                "InteractiveMolecule.useEffect.drawBond": (from, to, order)=>{
+                    const dx = to.x - from.x;
+                    const dy = to.y - from.y;
+                    const length = Math.hypot(dx, dy) || 1;
+                    const nx = -dy / length;
+                    const ny = dx / length;
+                    const offsets = order > 1 ? [
+                        -3,
+                        3
+                    ] : [
+                        0
+                    ];
+                    offsets.forEach({
+                        "InteractiveMolecule.useEffect.drawBond": (offset)=>{
+                            context.beginPath();
+                            context.moveTo(from.x + nx * offset, from.y + ny * offset);
+                            context.lineTo(to.x + nx * offset, to.y + ny * offset);
+                            context.strokeStyle = '#8aa3b7';
+                            context.lineWidth = 4;
+                            context.lineCap = 'round';
+                            context.stroke();
+                        }
+                    }["InteractiveMolecule.useEffect.drawBond"]);
+                }
+            }["InteractiveMolecule.useEffect.drawBond"];
+            bonds.slice().sort({
+                "InteractiveMolecule.useEffect": (a, b)=>(points[a.from]?.z || 0) + (points[a.to]?.z || 0) - ((points[b.from]?.z || 0) + (points[b.to]?.z || 0))
+            }["InteractiveMolecule.useEffect"]).forEach({
+                "InteractiveMolecule.useEffect": (bond)=>{
+                    if (points[bond.from] && points[bond.to]) drawBond(points[bond.from], points[bond.to], bond.order);
+                }
+            }["InteractiveMolecule.useEffect"]);
+            points.map({
+                "InteractiveMolecule.useEffect": (point, index)=>({
+                        point,
+                        atom: data.atoms[index]
+                    })
+            }["InteractiveMolecule.useEffect"]).sort({
+                "InteractiveMolecule.useEffect": (a, b)=>a.point.z - b.point.z
+            }["InteractiveMolecule.useEffect"]).forEach({
+                "InteractiveMolecule.useEffect": ({ point, atom })=>{
+                    const radius = (atom.element === 'H' ? 16 : 22) * point.perspective;
+                    const gradient = context.createRadialGradient(point.x - radius * 0.35, point.y - radius * 0.45, radius * 0.1, point.x, point.y, radius);
+                    const base = atomColors[atom.element] || '#94a3b8';
+                    gradient.addColorStop(0, '#ffffff');
+                    gradient.addColorStop(0.28, base);
+                    gradient.addColorStop(1, atom.element === 'H' ? '#cbd5e1' : '#334155');
+                    context.beginPath();
+                    context.arc(point.x, point.y, radius, 0, Math.PI * 2);
+                    context.fillStyle = gradient;
+                    context.shadowColor = '#102a4330';
+                    context.shadowBlur = 10;
+                    context.shadowOffsetY = 5;
+                    context.fill();
+                    context.shadowColor = 'transparent';
+                    context.strokeStyle = atom.element === 'H' ? '#cbd5e1' : '#ffffffaa';
+                    context.lineWidth = 1;
+                    context.stroke();
+                    context.fillStyle = atom.element === 'H' || atom.element === 'S' ? '#102a43' : '#ffffff';
+                    context.font = `700 ${Math.max(10, radius * 0.68)}px Plus Jakarta Sans, sans-serif`;
+                    context.textAlign = 'center';
+                    context.textBaseline = 'middle';
+                    context.fillText(atom.element, point.x, point.y + 1);
+                }
+            }["InteractiveMolecule.useEffect"]);
+        }
+    }["InteractiveMolecule.useEffect"], [
+        bonds,
+        data,
+        rotation,
+        zoomLevel
+    ]);
+    const handlePointerDown = (event)=>{
+        drag.current = {
+            active: true,
+            x: event.clientX,
+            y: event.clientY
+        };
+        event.currentTarget.setPointerCapture(event.pointerId);
+    };
+    const handlePointerMove = (event)=>{
+        if (!drag.current.active) return;
+        const dx = event.clientX - drag.current.x;
+        const dy = event.clientY - drag.current.y;
+        drag.current = {
+            active: true,
+            x: event.clientX,
+            y: event.clientY
+        };
+        onRotationChange({
+            x: rotation.x + dy * 0.01,
+            y: rotation.y + dx * 0.01
+        });
+    };
+    const handleWheel = (event)=>{
+        event.preventDefault();
+        onZoomChange(Math.max(0.6, Math.min(2.4, zoomLevel * Math.exp(-event.deltaY * 0.001))));
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("canvas", {
+        ref: canvasRef,
+        className: "studio-viewer",
+        "aria-label": "Interactive 3D molecular structure",
+        onPointerDown: handlePointerDown,
+        onPointerMove: handlePointerMove,
+        onPointerUp: ()=>{
+            drag.current.active = false;
+        },
+        onPointerCancel: ()=>{
+            drag.current.active = false;
+        },
+        onWheel: handleWheel
+    }, void 0, false, {
+        fileName: "[project]/app/MolecularStudio.tsx",
+        lineNumber: 207,
+        columnNumber: 5
+    }, this);
+}
+_s(InteractiveMolecule, "rfh2J/4VLvkqr3916PAkv/0yagY=");
+_c = InteractiveMolecule;
+function MolecularStudio() {
+    _s1();
+    const [smiles, setSmiles] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('CCO');
+    const [choice, setChoice] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('Ethanol');
+    const [data, setData] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [busy, setBusy] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [error, setError] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('');
+    const [zoomLevel, setZoomLevel] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(1);
+    const [rotation, setRotation] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])({
+        x: -0.25,
+        y: 0.65
+    });
+    const draw = async ()=>{
+        setBusy(true);
+        setError('');
+        try {
+            const response = await fetch(`${chemistryApiUrl}/api/structure`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    smiles: smiles.trim()
+                })
+            });
+            const responseText = await response.text();
+            let result;
+            try {
+                result = JSON.parse(responseText);
+            } catch  {
+                throw new Error(response.status === 404 ? `The chemistry API is not running at ${chemistryApiUrl}. Start the Python backend, then try again.` : `The chemistry API returned an unexpected response (${response.status}).`);
+            }
+            if (!response.ok) throw new Error(result.detail || 'Invalid SMILES');
+            if (!result?.molfile || !Array.isArray(result?.atoms)) throw new Error('The chemistry API returned incomplete structure data.');
+            setData(result);
+        } catch (caught) {
+            if (smiles.trim() === 'CCO') {
+                setData(ethanolFallback);
                 setError('');
             } else {
                 setData(null);
-                setError(e instanceof Error ? e.message : 'Unable to draw structure');
+                setError(caught instanceof TypeError ? `Could not connect to the chemistry API at ${chemistryApiUrl}. Start the Python backend, then try again.` : caught instanceof Error ? caught.message : 'Unable to draw structure');
             }
         } finally{
             setBusy(false);
         }
     };
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "MolecularStudio.useEffect": ()=>{
-            if (!data?.molfile || !canvas.current || !window.$3Dmol) return;
-            canvas.current.innerHTML = '';
-            const v = window.$3Dmol.createViewer(canvas.current, {
-                backgroundColor: '#f8fafc'
-            });
-            v.addModel(data.molfile, 'mol');
-            v.setStyle({}, {
-                stick: {
-                    radius: .16
-                },
-                sphere: {
-                    scale: .28
-                }
-            });
-            v.zoomTo();
-            v.render();
-        }
-    }["MolecularStudio.useEffect"], [
-        data
-    ]);
+    const resetView = ()=>{
+        setZoomLevel(1);
+        setRotation({
+            x: -0.25,
+            y: 0.65
+        });
+    };
+    const zoom = (amount)=>{
+        setZoomLevel((current)=>Math.max(0.6, Math.min(2.4, current * amount)));
+    };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         className: "page studio-page",
         children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$script$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                src: "https://3dmol.csb.pitt.edu/build/3Dmol-min.js",
-                strategy: "afterInteractive"
-            }, void 0, false, {
-                fileName: "[project]/app/MolecularStudio.tsx",
-                lineNumber: 16,
-                columnNumber: 516
-            }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "page-head",
                 children: [
@@ -217,42 +397,42 @@ M  END`
                                 children: "VISUALIZE / MOLECULAR STUDIO"
                             }, void 0, false, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 16,
-                                columnNumber: 637
+                                lineNumber: 281,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                 children: "Draw your molecule in 3D."
                             }, void 0, false, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 16,
-                                columnNumber: 698
+                                lineNumber: 282,
+                                columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Enter a SMILES string, validate it with RDKit, then rotate and zoom the structure."
                             }, void 0, false, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 16,
-                                columnNumber: 732
+                                lineNumber: 283,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/MolecularStudio.tsx",
-                        lineNumber: 16,
-                        columnNumber: 632
+                        lineNumber: 280,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "pill",
-                        children: "RDKit + 3Dmol.js"
+                        children: "RDKit + interactive 3D"
                     }, void 0, false, {
                         fileName: "[project]/app/MolecularStudio.tsx",
-                        lineNumber: 16,
-                        columnNumber: 827
+                        lineNumber: 285,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/MolecularStudio.tsx",
-                lineNumber: 16,
-                columnNumber: 605
+                lineNumber: 279,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "studio-input-grid",
@@ -262,133 +442,207 @@ M  END`
                             "Enter SMILES",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                 value: smiles,
-                                onChange: (e)=>setSmiles(e.target.value),
-                                onKeyDown: (e)=>e.key === 'Enter' && draw(),
-                                placeholder: "Example: CCO"
+                                onChange: (event)=>setSmiles(event.target.value),
+                                onKeyDown: (event)=>event.key === 'Enter' && draw(),
+                                placeholder: "Example: CCO",
+                                "aria-label": "SMILES string"
                             }, void 0, false, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 16,
-                                columnNumber: 933
+                                lineNumber: 291,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/MolecularStudio.tsx",
-                        lineNumber: 16,
-                        columnNumber: 914
+                        lineNumber: 289,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                         children: [
                             "Choose example",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
                                 value: choice,
-                                onChange: (e)=>{
-                                    const x = examples.find((v)=>v[0] === e.target.value);
-                                    setChoice(x[0]);
-                                    setSmiles(x[1]);
+                                onChange: (event)=>{
+                                    const selected = examples.find(([name])=>name === event.target.value);
+                                    if (!selected) return;
+                                    setChoice(selected[0]);
+                                    setSmiles(selected[1]);
                                 },
-                                children: examples.map((x)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
-                                        children: x[0]
-                                    }, x[0], false, {
+                                "aria-label": "Example molecule",
+                                children: examples.map(([name])=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                        children: name
+                                    }, name, false, {
                                         fileName: "[project]/app/MolecularStudio.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 1228
+                                        lineNumber: 311,
+                                        columnNumber: 39
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 16,
-                                columnNumber: 1091
+                                lineNumber: 301,
+                                columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/MolecularStudio.tsx",
-                        lineNumber: 16,
-                        columnNumber: 1070
+                        lineNumber: 299,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                         className: "primary studio-load",
                         onClick: draw,
-                        disabled: busy,
+                        disabled: busy || !smiles.trim(),
                         children: [
                             busy ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$loader$2d$circle$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Loader2$3e$__["Loader2"], {
                                 className: "spin",
                                 size: 17
                             }, void 0, false, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 16,
-                                columnNumber: 1358
+                                lineNumber: 315,
+                                columnNumber: 19
                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                 size: 17
                             }, void 0, false, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 16,
-                                columnNumber: 1396
+                                lineNumber: 315,
+                                columnNumber: 60
                             }, this),
-                            " ",
                             busy ? 'Validating…' : 'Draw structure'
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/MolecularStudio.tsx",
-                        lineNumber: 16,
-                        columnNumber: 1281
+                        lineNumber: 314,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/MolecularStudio.tsx",
-                lineNumber: 16,
-                columnNumber: 879
+                lineNumber: 288,
+                columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "studio-result-grid",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "studio-real-canvas",
-                        ref: canvas,
                         children: [
-                            data?.atoms && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                className: "molecule-2d",
-                                viewBox: "0 0 420 260",
-                                "aria-label": "2D molecular structure",
-                                children: data.atoms.map((atom, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("g", {
+                            data && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(InteractiveMolecule, {
+                                        data: data,
+                                        zoomLevel: zoomLevel,
+                                        rotation: rotation,
+                                        onZoomChange: setZoomLevel,
+                                        onRotationChange: setRotation
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/MolecularStudio.tsx",
+                                        lineNumber: 324,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "viewer-toolbar",
+                                        "aria-label": "3D viewer controls",
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("circle", {
-                                                cx: 210 + atom.x * 70,
-                                                cy: 130 - atom.y * 70,
-                                                r: "24"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "viewer-hint",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$info$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Info$3e$__["Info"], {
+                                                        size: 13
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/MolecularStudio.tsx",
+                                                        lineNumber: 332,
+                                                        columnNumber: 47
+                                                    }, this),
+                                                    " Drag to rotate · scroll to zoom"
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                                lineNumber: 16,
-                                                columnNumber: 1707
+                                                lineNumber: 332,
+                                                columnNumber: 17
                                             }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("text", {
-                                                x: 210 + atom.x * 70,
-                                                y: 136 - atom.y * 70,
-                                                textAnchor: "middle",
-                                                children: atom.element
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "viewer-actions",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                        type: "button",
+                                                        onClick: ()=>zoom(1.2),
+                                                        "aria-label": "Zoom in",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$plus$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Plus$3e$__["Plus"], {
+                                                            size: 15
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/MolecularStudio.tsx",
+                                                            lineNumber: 334,
+                                                            columnNumber: 88
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/MolecularStudio.tsx",
+                                                        lineNumber: 334,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                        type: "button",
+                                                        onClick: ()=>zoom(0.8),
+                                                        "aria-label": "Zoom out",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$minus$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Minus$3e$__["Minus"], {
+                                                            size: 15
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/MolecularStudio.tsx",
+                                                            lineNumber: 335,
+                                                            columnNumber: 89
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/MolecularStudio.tsx",
+                                                        lineNumber: 335,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                        type: "button",
+                                                        onClick: resetView,
+                                                        "aria-label": "Reset view",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$rotate$2d$ccw$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__RotateCcw$3e$__["RotateCcw"], {
+                                                            size: 15
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/MolecularStudio.tsx",
+                                                            lineNumber: 336,
+                                                            columnNumber: 85
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/MolecularStudio.tsx",
+                                                        lineNumber: 336,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                        type: "button",
+                                                        onClick: resetView,
+                                                        "aria-label": "Fit molecule",
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$maximize$2d$2$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Maximize2$3e$__["Maximize2"], {
+                                                            size: 15
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/app/MolecularStudio.tsx",
+                                                            lineNumber: 337,
+                                                            columnNumber: 87
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/MolecularStudio.tsx",
+                                                        lineNumber: 337,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                                lineNumber: 16,
-                                                columnNumber: 1761
-                                            }, this),
-                                            i > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("line", {
-                                                x1: 210 + data.atoms[i - 1].x * 70,
-                                                y1: 130 - data.atoms[i - 1].y * 70,
-                                                x2: 210 + atom.x * 70,
-                                                y2: 130 - atom.y * 70
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/MolecularStudio.tsx",
-                                                lineNumber: 16,
-                                                columnNumber: 1850
+                                                lineNumber: 333,
+                                                columnNumber: 17
                                             }, this)
                                         ]
-                                    }, i, true, {
+                                    }, void 0, true, {
                                         fileName: "[project]/app/MolecularStudio.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 1696
-                                    }, this))
-                            }, void 0, false, {
+                                        lineNumber: 331,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 16,
-                                columnNumber: 1572
+                                lineNumber: 323,
+                                columnNumber: 13
                             }, this),
                             !data && !error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "studio-placeholder",
@@ -397,42 +651,42 @@ M  END`
                                         className: "placeholder-orbit"
                                     }, void 0, false, {
                                         fileName: "[project]/app/MolecularStudio.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 2021
+                                        lineNumber: 344,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
                                         children: "3D molecular canvas"
                                     }, void 0, false, {
                                         fileName: "[project]/app/MolecularStudio.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 2057
+                                        lineNumber: 345,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: "Enter a SMILES string to begin"
                                     }, void 0, false, {
                                         fileName: "[project]/app/MolecularStudio.tsx",
-                                        lineNumber: 16,
-                                        columnNumber: 2083
+                                        lineNumber: 346,
+                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 16,
-                                columnNumber: 1985
+                                lineNumber: 343,
+                                columnNumber: 13
                             }, this),
                             error && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "studio-error",
                                 children: error
                             }, void 0, false, {
                                 fileName: "[project]/app/MolecularStudio.tsx",
-                                lineNumber: 16,
-                                columnNumber: 2141
+                                lineNumber: 349,
+                                columnNumber: 21
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/MolecularStudio.tsx",
-                        lineNumber: 16,
-                        columnNumber: 1509
+                        lineNumber: 321,
+                        columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "studio-info",
@@ -445,30 +699,30 @@ M  END`
                                             size: 16
                                         }, void 0, false, {
                                             fileName: "[project]/app/MolecularStudio.tsx",
-                                            lineNumber: 16,
-                                            columnNumber: 2255
+                                            lineNumber: 355,
+                                            columnNumber: 42
                                         }, this),
                                         " Validated by RDKit"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                    lineNumber: 16,
-                                    columnNumber: 2228
+                                    lineNumber: 355,
+                                    columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "tag",
                                     children: "MOLECULAR INFORMATION"
                                 }, void 0, false, {
                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                    lineNumber: 16,
-                                    columnNumber: 2305
+                                    lineNumber: 356,
+                                    columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     children: data.formula
                                 }, void 0, false, {
                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                    lineNumber: 16,
-                                    columnNumber: 2355
+                                    lineNumber: 357,
+                                    columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("dl", {
                                     children: [
@@ -478,21 +732,21 @@ M  END`
                                                     children: "Canonical SMILES"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                                    lineNumber: 16,
-                                                    columnNumber: 2387
+                                                    lineNumber: 359,
+                                                    columnNumber: 22
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("dd", {
                                                     children: data.canonical_smiles
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                                    lineNumber: 16,
-                                                    columnNumber: 2412
+                                                    lineNumber: 359,
+                                                    columnNumber: 47
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/MolecularStudio.tsx",
-                                            lineNumber: 16,
-                                            columnNumber: 2382
+                                            lineNumber: 359,
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
@@ -500,8 +754,8 @@ M  END`
                                                     children: "Molar mass"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                                    lineNumber: 16,
-                                                    columnNumber: 2455
+                                                    lineNumber: 360,
+                                                    columnNumber: 22
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("dd", {
                                                     children: [
@@ -510,14 +764,14 @@ M  END`
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                                    lineNumber: 16,
-                                                    columnNumber: 2474
+                                                    lineNumber: 360,
+                                                    columnNumber: 41
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/MolecularStudio.tsx",
-                                            lineNumber: 16,
-                                            columnNumber: 2450
+                                            lineNumber: 360,
+                                            columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             children: [
@@ -525,33 +779,33 @@ M  END`
                                                     children: "Atoms"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                                    lineNumber: 16,
-                                                    columnNumber: 2517
+                                                    lineNumber: 361,
+                                                    columnNumber: 22
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("dd", {
                                                     children: data.atoms.length
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                                    lineNumber: 16,
-                                                    columnNumber: 2531
+                                                    lineNumber: 361,
+                                                    columnNumber: 36
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/MolecularStudio.tsx",
-                                            lineNumber: 16,
-                                            columnNumber: 2512
+                                            lineNumber: 361,
+                                            columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                    lineNumber: 16,
-                                    columnNumber: 2378
+                                    lineNumber: 358,
+                                    columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/MolecularStudio.tsx",
-                            lineNumber: 16,
-                            columnNumber: 2226
+                            lineNumber: 354,
+                            columnNumber: 13
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -559,51 +813,52 @@ M  END`
                                     children: "READY TO EXPLORE"
                                 }, void 0, false, {
                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                    lineNumber: 16,
-                                    columnNumber: 2576
+                                    lineNumber: 366,
+                                    columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                     children: "Structure details"
                                 }, void 0, false, {
                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                    lineNumber: 16,
-                                    columnNumber: 2621
+                                    lineNumber: 367,
+                                    columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     children: "RDKit validates the input before drawing it."
                                 }, void 0, false, {
                                     fileName: "[project]/app/MolecularStudio.tsx",
-                                    lineNumber: 16,
-                                    columnNumber: 2647
+                                    lineNumber: 368,
+                                    columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/MolecularStudio.tsx",
-                            lineNumber: 16,
-                            columnNumber: 2574
+                            lineNumber: 365,
+                            columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/MolecularStudio.tsx",
-                        lineNumber: 16,
-                        columnNumber: 2191
+                        lineNumber: 352,
+                        columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/MolecularStudio.tsx",
-                lineNumber: 16,
-                columnNumber: 1473
+                lineNumber: 320,
+                columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/MolecularStudio.tsx",
-        lineNumber: 16,
-        columnNumber: 478
+        lineNumber: 278,
+        columnNumber: 5
     }, this);
 }
-_s(MolecularStudio, "2n2TUMYZBsdFKs5I9iMTzqhkSd0=");
-_c = MolecularStudio;
-var _c;
-__turbopack_context__.k.register(_c, "MolecularStudio");
+_s1(MolecularStudio, "PbcG4XtIVnwFYxBtHzZluYkz6TI=");
+_c1 = MolecularStudio;
+var _c, _c1;
+__turbopack_context__.k.register(_c, "InteractiveMolecule");
+__turbopack_context__.k.register(_c1, "MolecularStudio");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
@@ -1262,7 +1517,7 @@ function Page() {
                                         children: [
                                             "Chem",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                children: "Sphere"
+                                                children: "ora"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
@@ -1279,7 +1534,7 @@ function Page() {
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 202
+                                        columnNumber: 199
                                     }, this)
                                 ]
                             }, void 0, true, {
@@ -1295,12 +1550,12 @@ function Page() {
                                 }, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 46,
-                                    columnNumber: 296
+                                    columnNumber: 293
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 239
+                                columnNumber: 236
                             }, this)
                         ]
                     }, void 0, true, {
@@ -1320,20 +1575,20 @@ function Page() {
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 446
+                                        columnNumber: 443
                                     }, this),
                                     n.label
                                 ]
                             }, n.id, true, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 368
+                                columnNumber: 365
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 325
+                        columnNumber: 322
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "sidebar-foot",
@@ -1343,7 +1598,7 @@ function Page() {
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 520
+                                columnNumber: 517
                             }, this),
                             " ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1351,13 +1606,13 @@ function Page() {
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 550
+                                columnNumber: 547
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 490
+                        columnNumber: 487
                     }, this)
                 ]
             }, void 0, true, {
@@ -1375,23 +1630,23 @@ function Page() {
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {}, void 0, false, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 46,
-                                    columnNumber: 673
+                                    columnNumber: 670
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 611
+                                columnNumber: 608
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "crumb",
                                 children: [
-                                    "ChemSphere ",
+                                    "Chemora ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
                                         size: 14
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 723
+                                        columnNumber: 717
                                     }, this),
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1399,13 +1654,13 @@ function Page() {
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 749
+                                        columnNumber: 743
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 689
+                                columnNumber: 686
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "search",
@@ -1415,7 +1670,7 @@ function Page() {
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 825
+                                        columnNumber: 819
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                         placeholder: "Search compounds, topics...",
@@ -1424,19 +1679,19 @@ function Page() {
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 844
+                                        columnNumber: 838
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 801
+                                columnNumber: 795
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 603
+                        columnNumber: 600
                     }, this),
                     page === 'home' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(HomeView, {
                         go: go,
@@ -1444,7 +1699,7 @@ function Page() {
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 978
+                        columnNumber: 972
                     }, this),
                     " ",
                     page === 'compounds' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1461,27 +1716,27 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 1104
+                                                columnNumber: 1098
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                                 children: "Compound Explorer"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 1159
+                                                columnNumber: 1153
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                 children: "Search, filter and understand the molecules that shape our world."
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 1185
+                                                columnNumber: 1179
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 1099
+                                        columnNumber: 1093
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "pill",
@@ -1489,13 +1744,13 @@ function Page() {
                                     }, void 0, false, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 1263
+                                        columnNumber: 1257
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 1072
+                                columnNumber: 1066
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "filter-row",
@@ -1508,7 +1763,7 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 1378
+                                                columnNumber: 1372
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                                 autoFocus: true,
@@ -1518,13 +1773,13 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 1397
+                                                columnNumber: 1391
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 1350
+                                        columnNumber: 1344
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "filter-pill",
@@ -1535,19 +1790,19 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 1562
+                                                columnNumber: 1556
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 1521
+                                        columnNumber: 1515
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 1322
+                                columnNumber: 1316
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "compound-grid",
@@ -1560,7 +1815,7 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 1723
+                                                columnNumber: 1717
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "card-copy",
@@ -1574,27 +1829,27 @@ function Page() {
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/page.tsx",
                                                                 lineNumber: 46,
-                                                                columnNumber: 1800
+                                                                columnNumber: 1794
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                                                 size: 17
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/page.tsx",
                                                                 lineNumber: 46,
-                                                                columnNumber: 1837
+                                                                columnNumber: 1831
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/page.tsx",
                                                         lineNumber: 46,
-                                                        columnNumber: 1774
+                                                        columnNumber: 1768
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                         children: c.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
                                                         lineNumber: 46,
-                                                        columnNumber: 1866
+                                                        columnNumber: 1860
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "formula",
@@ -1610,43 +1865,43 @@ function Page() {
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/page.tsx",
                                                                 lineNumber: 46,
-                                                                columnNumber: 1920
+                                                                columnNumber: 1914
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/page.tsx",
                                                         lineNumber: 46,
-                                                        columnNumber: 1883
+                                                        columnNumber: 1877
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: c.blurb
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/page.tsx",
                                                         lineNumber: 46,
-                                                        columnNumber: 1966
+                                                        columnNumber: 1960
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 1747
+                                                columnNumber: 1741
                                             }, this)
                                         ]
                                     }, c.name, true, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 1647
+                                        columnNumber: 1641
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 1599
+                                columnNumber: 1593
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 1046
+                        columnNumber: 1040
                     }, this),
                     page === 'calculator' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CalculatorView, {
                         mass: mass,
@@ -1658,7 +1913,7 @@ function Page() {
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 2038
+                        columnNumber: 2032
                     }, this),
                     " ",
                     page === 'reaction' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ReactionView, {
@@ -1669,7 +1924,7 @@ function Page() {
                     }, void 0, false, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 2167
+                        columnNumber: 2161
                     }, this),
                     " ",
                     page === 'periodic' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1685,32 +1940,32 @@ function Page() {
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 46,
-                                            columnNumber: 2342
+                                            columnNumber: 2336
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                             children: "Periodic Table"
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 46,
-                                            columnNumber: 2387
+                                            columnNumber: 2381
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "118 elements, organized by recurring chemical properties."
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 46,
-                                            columnNumber: 2410
+                                            columnNumber: 2404
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 46,
-                                    columnNumber: 2337
+                                    columnNumber: 2331
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 2310
+                                columnNumber: 2304
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "legend",
@@ -1722,14 +1977,14 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 2516
+                                                columnNumber: 2510
                                             }, this),
                                             "Nonmetal"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 2510
+                                        columnNumber: 2504
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: [
@@ -1738,14 +1993,14 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 2573
+                                                columnNumber: 2567
                                             }, this),
                                             "Metal"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 2567
+                                        columnNumber: 2561
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         children: [
@@ -1754,20 +2009,20 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 2624
+                                                columnNumber: 2618
                                             }, this),
                                             "Noble gas"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 2618
+                                        columnNumber: 2612
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 2486
+                                columnNumber: 2480
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "periodic",
@@ -1780,74 +2035,74 @@ function Page() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 2846
+                                                columnNumber: 2840
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                 children: e
                                             }, void 0, false, {
                                                 fileName: "[project]/app/page.tsx",
                                                 lineNumber: 46,
-                                                columnNumber: 2866
+                                                columnNumber: 2860
                                             }, this)
                                         ]
                                     }, e, true, {
                                         fileName: "[project]/app/page.tsx",
                                         lineNumber: 46,
-                                        columnNumber: 2726
+                                        columnNumber: 2720
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 2679
+                                columnNumber: 2673
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 2284
+                        columnNumber: 2278
                     }, this),
                     page === 'studio' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$MolecularStudio$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 2932
+                        columnNumber: 2926
                     }, this),
                     page === 'learn' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LearnView, {}, void 0, false, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 2968
+                        columnNumber: 2962
                     }, this),
                     page === 'about' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(AboutView, {}, void 0, false, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 2998
+                        columnNumber: 2992
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                children: "© 2026 ChemSphere"
+                                children: "© 2026 Chemora"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 3019
+                                columnNumber: 3013
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 children: "Developed by Botharish Cyber · Educational use only"
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 3049
+                                columnNumber: 3040
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 46,
-                        columnNumber: 3011
+                        columnNumber: 3005
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
                 lineNumber: 46,
-                columnNumber: 597
+                columnNumber: 594
             }, this),
             selected && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "modal-backdrop",
@@ -1862,19 +2117,19 @@ function Page() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {}, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 46,
-                                columnNumber: 3324
+                                columnNumber: 3315
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 46,
-                            columnNumber: 3260
+                            columnNumber: 3251
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Molecule, {
                             compound: selected
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 46,
-                            columnNumber: 3337
+                            columnNumber: 3328
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "tag",
@@ -1882,14 +2137,14 @@ function Page() {
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 46,
-                            columnNumber: 3368
+                            columnNumber: 3359
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             children: selected.name
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 46,
-                            columnNumber: 3412
+                            columnNumber: 3403
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "modal-formula",
@@ -1897,14 +2152,14 @@ function Page() {
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 46,
-                            columnNumber: 3436
+                            columnNumber: 3427
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             children: selected.blurb
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 46,
-                            columnNumber: 3491
+                            columnNumber: 3482
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "specs",
@@ -1916,7 +2171,7 @@ function Page() {
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 46,
-                                            columnNumber: 3542
+                                            columnNumber: 3533
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
                                             children: [
@@ -1926,13 +2181,13 @@ function Page() {
                                         }, void 0, true, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 46,
-                                            columnNumber: 3567
+                                            columnNumber: 3558
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 46,
-                                    columnNumber: 3537
+                                    columnNumber: 3528
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     children: [
@@ -1941,26 +2196,26 @@ function Page() {
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 46,
-                                            columnNumber: 3617
+                                            columnNumber: 3608
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {
                                             children: selected.atoms.join(' — ')
                                         }, void 0, false, {
                                             fileName: "[project]/app/page.tsx",
                                             lineNumber: 46,
-                                            columnNumber: 3641
+                                            columnNumber: 3632
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/page.tsx",
                                     lineNumber: 46,
-                                    columnNumber: 3612
+                                    columnNumber: 3603
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 46,
-                            columnNumber: 3514
+                            columnNumber: 3505
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "note",
@@ -1968,18 +2223,18 @@ function Page() {
                         }, void 0, false, {
                             fileName: "[project]/app/page.tsx",
                             lineNumber: 46,
-                            columnNumber: 3688
+                            columnNumber: 3679
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/page.tsx",
                     lineNumber: 46,
-                    columnNumber: 3204
+                    columnNumber: 3195
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
                 lineNumber: 46,
-                columnNumber: 3140
+                columnNumber: 3131
             }, this)
         ]
     }, void 0, true, {
@@ -3363,7 +3618,7 @@ function AboutView() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "creator-credit",
-                children: "Web application created by Mohammed Imthiyas."
+                children: "Website developed by Ezhil Mugan.AN"
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
                 lineNumber: 52,
@@ -3371,11 +3626,11 @@ function AboutView() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "lead",
-                children: "ChemSphere is an educational playground for exploring the structure and behavior of matter. It combines local reference data with transparent, browser-side calculations so the reasoning stays visible."
+                children: "Chemora is an educational playground for exploring the structure and behavior of matter. It combines local reference data with transparent, browser-side calculations so the reasoning stays visible."
             }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
                 lineNumber: 52,
-                columnNumber: 225
+                columnNumber: 215
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "about-grid",
@@ -3387,20 +3642,20 @@ function AboutView() {
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 52,
-                                columnNumber: 482
+                                columnNumber: 469
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Compound reference cards, equation balancing for supported syntax, common chemistry calculators, an interactive periodic table and molecular geometry explainers."
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 52,
-                                columnNumber: 504
+                                columnNumber: 491
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 52,
-                        columnNumber: 477
+                        columnNumber: 464
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
@@ -3409,20 +3664,20 @@ function AboutView() {
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 52,
-                                columnNumber: 683
+                                columnNumber: 670
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "Next.js, TypeScript, React and accessible interface patterns. Sample data lives locally and is intentionally labeled for educational use."
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 52,
-                                columnNumber: 707
+                                columnNumber: 694
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 52,
-                        columnNumber: 678
+                        columnNumber: 665
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         children: [
@@ -3431,26 +3686,26 @@ function AboutView() {
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 52,
-                                columnNumber: 862
+                                columnNumber: 849
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 children: "This application is for learning only. It is not a substitute for laboratory safety procedures, professional chemical analysis or expert supervision."
                             }, void 0, false, {
                                 fileName: "[project]/app/page.tsx",
                                 lineNumber: 52,
-                                columnNumber: 887
+                                columnNumber: 874
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/page.tsx",
                         lineNumber: 52,
-                        columnNumber: 857
+                        columnNumber: 844
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/page.tsx",
                 lineNumber: 52,
-                columnNumber: 449
+                columnNumber: 436
             }, this)
         ]
     }, void 0, true, {

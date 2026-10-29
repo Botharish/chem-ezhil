@@ -61,7 +61,7 @@ def structure(payload: SmilesRequest) -> dict[str, Any]:
     else:
         AllChem.UFFOptimizeMolecule(molecule)
     conformer = molecule.GetConformer()
-    coordinates = [{"element": atom.GetSymbol(), "x": conformer.GetAtomPosition(atom.GetIdx()).x, "y": conformer.GetAtomPosition(atom.GetIdx()).y, "z": 0.0} for atom in molecule.GetAtoms()]
+    coordinates = [{"element": atom.GetSymbol(), "x": conformer.GetAtomPosition(atom.GetIdx()).x, "y": conformer.GetAtomPosition(atom.GetIdx()).y, "z": conformer.GetAtomPosition(atom.GetIdx()).z} for atom in molecule.GetAtoms()]
     return {"valid": True, "canonical_smiles": Chem.MolToSmiles(Chem.RemoveHs(molecule)), "formula": rdMolDescriptors.CalcMolFormula(molecule), "molar_mass": round(Descriptors.MolWt(molecule), 4), "atoms": coordinates, "molfile": Chem.MolToMolBlock(molecule)}
 
 @app.post("/api/balance")

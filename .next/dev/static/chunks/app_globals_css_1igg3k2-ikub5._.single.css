@@ -1,13 +1,4 @@
 /* [project]/app/globals.css [app-client] (css) */
-:root {
-  --blue: #1769aa;
-  --teal: #0d9488;
-  --ink: #172b4d;
-  --muted: #6b7b93;
-  --line: #e2e8f0;
-  --soft: #f8fafc;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -1364,6 +1355,202 @@ footer {
   .page-head .pill {
     display: none;
   }
+}
+
+:root {
+  --blue: #2563eb;
+  --teal: #0f766e;
+  --ink: #102a43;
+  --muted: #64748b;
+  --line: #dbe5f0;
+  --soft: #f5f9ff;
+}
+
+body {
+  color: var(--ink);
+  background: #fbfdff;
+}
+
+.sidebar {
+  background: #fff;
+  border-right-color: #e5edf6;
+  padding: 24px 14px;
+}
+
+.brand {
+  padding-bottom: 30px;
+}
+
+.brand-mark {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  box-shadow: 0 8px 18px #2563eb2b;
+}
+
+nav button {
+  border: 1px solid #0000;
+  transition: background .18s, border-color .18s, color .18s;
+}
+
+nav button.active {
+  color: #1d4ed8;
+  background: #eff6ff;
+  border-color: #dbeafe;
+}
+
+nav button:hover {
+  background: #f8fbff;
+  border-color: #e6eef8;
+}
+
+header {
+  background: #fff;
+  border-bottom-color: #e5edf6;
+  height: 70px;
+  box-shadow: 0 1px 8px #1e3a5f08;
+}
+
+.search, .big-search {
+  background: #fff;
+  border-color: #dbe5f0;
+  transition: border-color .18s, box-shadow .18s;
+}
+
+.search:focus-within, .big-search:focus-within {
+  border-color: #93b4f8;
+  box-shadow: 0 0 0 3px #2563eb14;
+}
+
+.home, .page {
+  max-width: 1180px;
+  padding-top: 48px;
+}
+
+.hero h1 {
+  color: #102a43;
+  font-size: 50px;
+}
+
+.hero p {
+  color: #52657b;
+}
+
+.primary {
+  background: #2563eb;
+  border-radius: 9px;
+  transition: transform .18s, box-shadow .18s;
+  box-shadow: 0 8px 18px #2563eb24;
+}
+
+.primary:hover {
+  background: #1d4ed8;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px #2563eb33;
+}
+
+.secondary {
+  color: #24415e;
+  border-color: #dbe5f0;
+}
+
+.secondary:hover {
+  background: #f8fbff;
+  border-color: #bfd3ee;
+}
+
+.hero-art {
+  background: linear-gradient(145deg, #eff6ff, #f0fdfa);
+  box-shadow: inset 0 0 0 1px #dbeafe;
+}
+
+.hero-core {
+  background: #2563eb;
+}
+
+.hero-ring {
+  border-color: #93b4f8;
+}
+
+.tool-card, .compound-card, .calc-card, .reaction-card, .studio-panel, .lesson {
+  background: #fff;
+  border-color: #dbe5f0;
+  box-shadow: 0 4px 14px #1e3a5f06;
+}
+
+.tool-card:hover, .compound-card:hover {
+  border-color: #c8daf3;
+  box-shadow: 0 14px 28px #1e3a5f12;
+}
+
+.tool-icon {
+  color: #2563eb;
+  background: #eff6ff;
+}
+
+.feature-row {
+  background: linear-gradient(135deg, #f5f9ff, #f0fdfa);
+  border: 1px solid #e2edf8;
+}
+
+.page h1 {
+  color: #102a43;
+}
+
+.page-head p, .card-copy p {
+  color: #64748b;
+}
+
+.pill, .tag {
+  color: #2563eb;
+  background: #eff6ff;
+}
+
+.filter-pill, .calc-nav {
+  background: #fff;
+  border-color: #dbe5f0;
+}
+
+.calc-nav button.active {
+  color: #1d4ed8;
+  background: #eff6ff;
+}
+
+.input-unit, .reaction-card input, .select-box {
+  background: #fff;
+  border-color: #dbe5f0;
+}
+
+.result {
+  background: #eff6ff;
+  border: 1px solid #dbeafe;
+}
+
+.result strong, .formula, .reaction-output h2 {
+  color: #2563eb;
+}
+
+.reaction-output, .studio-real-canvas {
+  background: #f6faff;
+  border: 1px solid #e5eef8;
+}
+
+.studio-canvas {
+  background: linear-gradient(145deg, #f5f9ff, #f0fdfa);
+  border: 1px solid #e1ebf5;
+}
+
+.lesson:hover {
+  background: #f8fbff;
+  border-color: #c8daf3;
+}
+
+footer {
+  background: #fff;
+  border-top-color: #e5edf6;
+}
+
+button:focus-visible, input:focus-visible, select:focus-visible {
+  outline-offset: 2px;
+  outline: 3px solid #93b4f8;
 }
 
 /*# sourceMappingURL=app_globals_css_1igg3k2-ikub5._.single.css.map*/

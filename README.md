@@ -14,15 +14,21 @@ Open http://localhost:3000.
 ## Optional Python scientific service
 
 The frontend remains a Next.js app. The companion FastAPI service adds validated
-RDKit structure parsing and 2D coordinates, SymPy equation balancing, NumPy/SciPy
+RDKit structure parsing and 3D coordinates, SymPy equation balancing, NumPy/SciPy
 kinetics, and Pint unit conversion.
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
+python3 -m pip install --upgrade pip
 pip install -r api/requirements.txt
-python -m uvicorn api.main:app --reload --port 8000
+python3 -m uvicorn api.main:app --reload --port 8000
 ```
+
+Keep the Python API running in one terminal and the Next.js app running in a
+second terminal. Molecular Studio sends structure requests to
+`http://localhost:8000` by default. You can override that with
+`NEXT_PUBLIC_CHEMSPHERE_API` when the API is hosted elsewhere.
 
 The service endpoints are `/api/structure`, `/api/balance`, `/api/units`, and
 `/api/kinetics/first-order`. RDKit is used only for validated molecular inputs;
